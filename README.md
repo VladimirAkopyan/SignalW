@@ -154,3 +154,8 @@ Open several pages of [https://www.websocket.org/echo.html](https://www.websocke
 and connect to `https://[host]/api/signalw/chat?connectionId=[any value]`. Each page should broadcast
 messages to every other page and this is a simple chat.
 
+# Dependencies
+Depends on [SpreadsCore package](https://www.nuget.org/packages/Spreads.Core/) for custom binary serialiser and MemoryBuffer implementation. 
+The package is built as part of [Spreads Project](https://github.com/Spreads/Spreads)
+
+
